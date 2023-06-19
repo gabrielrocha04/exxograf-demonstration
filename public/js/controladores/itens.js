@@ -29,10 +29,22 @@ const comun_visual = (req, res) => {
     res.sendFile(filePath);
 };
 
+const hospitais = (req, res) => {
+    const filePath = getFilePath("hospitais.html");
+    res.sendFile(filePath);
+};
+
+const empresas = (req, res) => {
+    const filePath = getFilePath("empresas.html");
+    res.sendFile(filePath);
+};
+
 module.exports = {
     home,
     sobre,
     estimate,
     escola,
     comun_visual,
+    hospitais,
+    empresas,
 }

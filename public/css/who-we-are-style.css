@@ -13,10 +13,17 @@ body {
 }
 
 .presentation{
+    display: flex;
+    justify-content: space-between;
     padding: 0px 300px 0px 300px;
-    text-align: center;
+    text-align: justify;
     font-family:'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-top: 100px;
+}
+
+.presentation p{
+    margin-left: 50px;
 }
 
 /*MOTIVATION*/

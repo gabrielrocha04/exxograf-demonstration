@@ -6,30 +6,47 @@ body {
 /**FOOTER**/
 footer .container-fluid-footer {
     width: 100%;
-    height: 25vh;
+    height: 54vh;
     border-style: solid none none none;
     border-color: aqua;
     margin-top: 75px;
     padding: 0px 300px 0px 300px;
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+    justify-content: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
+    color: aliceblue;
 }
+
+footer .container-fluid-footer{
+    background-image: url(../img/fundo\ rodape.png);
+}
+
 footer .container-fluid-footer .container-fluid-logo {
     width: auto;
     height: auto;
+    margin-right: 75px;
 }
 
-footer .container-fluid-footer .container-fluid-baseboard img{
-    width: 20px;
-    height: 20px;
+footer .container-fluid-footer .container-fluid-general-baseboard{
+    display: flex;  
 }
 
-footer .container-fluid-footer .container-fluid-baseboard #container-fluid-contact-item{
+footer .container-fluid-footer .container-fluid-general-baseboard .container-fluid-baseboard{
+    margin-right: 50px;
+}
+
+footer .container-fluid-footer .container-fluid-general-baseboard .container-fluid-baseboard img{
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+}
+
+footer .container-fluid-footer .container-fluid-general-baseboard .container-fluid-baseboard #container-fluid-contact-item{
     display: flex;   
 }
-footer .container-fluid-footer .container-fluid-baseboard #container-fluid-socialmedia-item{
+
+footer .container-fluid-footer .container-fluid-general-baseboard .container-fluid-baseboard #container-fluid-socialmedia-item{
     display: flex;   
 }

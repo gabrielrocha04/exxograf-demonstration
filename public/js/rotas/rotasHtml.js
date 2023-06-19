@@ -22,4 +22,6 @@ function handleRouteClick(route) {
   document.getElementById("estimate").addEventListener("click", handleRouteClick("/estimate"));
   document.getElementById("comun-visual").addEventListener("click", handleRouteClick("/comun-visual"));
   document.getElementById("escolas").addEventListener("click", handleRouteClick("/escolas"));
+  document.getElementById("hospitais").addEventListener("click", handleRouteClick("/hospitais"));
+  document.getElementById("empresas").addEventListener("click", handleRouteClick("/empresas"));
   
