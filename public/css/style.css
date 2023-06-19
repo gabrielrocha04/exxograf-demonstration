@@ -29,8 +29,8 @@ ul {
 }
 
 .categorys #item img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     /**background-color: rgb(218, 21, 21);**/
     margin: 5px;
