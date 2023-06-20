@@ -17,4 +17,6 @@ rotas.get("/hospitais", hospitais);
 
 rotas.get("/empresas", empresas);
 
+rotas.get("/empresas", empresas);
+
 module.exports = rotas;

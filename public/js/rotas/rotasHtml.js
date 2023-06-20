@@ -24,4 +24,3 @@ function handleRouteClick(route) {
   document.getElementById("escolas").addEventListener("click", handleRouteClick("/escolas"));
   document.getElementById("hospitais").addEventListener("click", handleRouteClick("/hospitais"));
   document.getElementById("empresas").addEventListener("click", handleRouteClick("/empresas"));
-  
