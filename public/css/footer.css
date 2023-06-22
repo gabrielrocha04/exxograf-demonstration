@@ -22,6 +22,7 @@ footer .container-fluid-footer {
 
 footer .container-fluid-footer{
     background-image: url(../img/fundo\ rodape.png);
+    background-repeat: no-repeat;
 }
 
 footer .container-fluid-footer .container-fluid-logo {
@@ -50,4 +51,9 @@ footer .container-fluid-footer .container-fluid-general-baseboard .container-flu
 
 footer .container-fluid-footer .container-fluid-general-baseboard .container-fluid-baseboard #container-fluid-socialmedia-item{
     display: flex;   
+}
+
+.container-fluid-footer #image-wpp{
+    margin-top: 300px;
+    margin-left: -400px;
 }
